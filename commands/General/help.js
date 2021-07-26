@@ -83,7 +83,7 @@ class Help extends Command {
 				)
 				.setColor(this.client.config.embed.color)
 				.setFooter(this.client.config.embed.footer);
-
+                                .setDescprtion('k')
 			// and send the embed in the current channel
 			return message.channel.send({ embeds: [groupEmbed] });
 		}
